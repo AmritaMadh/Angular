@@ -1,0 +1,4 @@
+Angular is a platform or framework for building Single Page Application using HTML and Typescript.
+Angular is written in Typescript.
+The basic building blocks are NgModules which provide a compilation context for component.
+An Angular app defined by a set of NgModules.
