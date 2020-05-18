@@ -1,0 +1,5 @@
+1. A workspace contains the files for one or more projects. The Angular CLI ng new command creates a workspace.
+   ng new <my-project>
+   
+2. File Configurations
+   https://angular.io/guide/file-structure#multiple-projects
