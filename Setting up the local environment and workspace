@@ -1,1 +1,24 @@
+1. Make sure,development environment includes Node.js® and an npm package manager.
+   To check version RUN BELOW COMMANDS in a terminal/console window.:
+   * run node -v 
+   * npm -v
+   
+   - Angular, the Angular CLI, and Angular apps depend on features and functionality provided by libraries that are available as npm packages
+
+Step 1 : Install Angular CLI globally using npm
+         We use angular CLI to create projects, generate application and library code and perform varity of on going development taks 
+         such as testing, building and deployment.
+         npm install -g @angular/cli
+         
+Step 2: Create a workspace and initial application
+        Run CLI command ng new my-app
+        Angular CLI install necessary npm packages and otherdependencies
+        
+Step 3: Run the application
+        Angular CLU includes SERVER so that we can easily build and serve our application locally
+        ng serve -open
+        The --open (or just -o) option automatically opens your browser to http://localhost:4200/.
+        
+
+         
 
