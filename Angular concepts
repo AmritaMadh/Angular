@@ -3,5 +3,22 @@ Angular is written in Typescript.
 The basic building blocks are NgModules which provide a compilation context for component.
 An Angular app defined by a set of NgModules.
 
-Modules: https://angular.io/guide/architecture-modules
+Modules:     https://angular.io/guide/architecture-modules
 
+Decorators:  Decorators are functions that modify JavaScript classes. Angular defines a number of decorators that attach specific kinds of 
+             metadata to classes, so that the system knows what those classes mean and how they should work.
+
+Components:  - Component defines a class that contains application data and logic, and is associated with an HTML template that defines a view to be displayed
+             - The @Component() decorator identifies the class immediately below it as a component, and provides the template and related component-specific metadata.
+             - The @Component decorator identifies the class immediately below it as a component class, and specifies its metadata.
+             - A template looks like regular HTML, except that it also contains Angular template syntax, which alters the HTML based on 
+               your app's logic and the state of app and DOM data. Your template can use data binding to coordinate the app and DOM data, 
+               pipes to transform data before it is displayed, and directives to apply app logic to what gets displayed.
+             - Template
+             - Directive
+             - DataBinding 
+             - Pipes
+             - https://angular.io/guide/architecture-components
+             - User Directives - https://angular.io/guide/attribute-directives
+             - User define Pipes - https://angular.io/guide/pipes
+             
