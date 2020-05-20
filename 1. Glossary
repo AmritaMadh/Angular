@@ -12,3 +12,19 @@ Compiler
        just-in-time (JIT) compilation.
      - By compiling your application using the ngc command-line tool, you can bootstrap directly to a module factory, so you don't need to
        include the Angular compiler in your JavaScript bundle.
+       
+3. class decorator
+     - A decorator that appears immediately before a class definition, which declares the class to be of the given type, and provides metadata suitable to the type.
+       The following decorators can declare Angular class types:
+       @Component()
+       @Directive()
+       @Pipe()
+       @Injectable()
+       @NgModule()
+       
+     - class field decorator
+       A decorator statement immediately before a field in a class definition that declares the type of that field. Some examples are 
+       @Input and 
+       @Output.
+ 4. https://angular.io/guide/glossary
+ 
