@@ -1,1 +1,14 @@
-
+Compiler
+  1. Just in Time
+     - The Angular just-in-time (JIT) compiler converts your Angular HTML and TypeScript code into efficient JavaScript code at run time,
+       as part of bootstrapping.
+     - JIT compilation is the default when you run Angular's ng build and ng serve CLI commands, and is a good choice during development.
+     - JIT mode is strongly discouraged for production use because it results in large application payloads that hinder the bootstrap performance.
+ 
+ 2. Ahead of Time
+     - The Angular ahead-of-time (AOT) compiler converts Angular HTML and TypeScript code into efficient JavaScript code during the build 
+       phase, before the browser downloads and runs that code. 
+     - This is the best compilation mode for production environments, with decreased load time and increased performance compared to 
+       just-in-time (JIT) compilation.
+     - By compiling your application using the ngc command-line tool, you can bootstrap directly to a module factory, so you don't need to
+       include the Angular compiler in your JavaScript bundle.
