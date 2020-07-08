@@ -29,4 +29,8 @@ Installation and setup
 2. Setup Angular
    angular cli - its a command line interface ...what it does is by default it add all the dependency libraries in the application.
    - npm install -g @angular/cli
+   - ng new myApp
+   - cd myApp
+   - ng server
+   - localhost:4200
    
